@@ -1,0 +1,29 @@
+---
+layout: archive
+title: "Further Details: Stock Program"
+permalink: /stockprogramdetails/
+author_profile: true
+---
+
+The way the program works is:
+  - User enters a the set amount of cash that they wish to spend on stocks.
+  - The user can then get the program to either buy, sell or implements range trading 
+  on the available stocks.
+  - The results of each action is then displayed in the GUI.
+  - Stock prices are taken from Alpaca's API. 
+
+  Future works:
+  - The prices aren't always correctly updated which is something that will be improved on.
+  - Users can't select what stocks they want to buy and sell individually, need to improve that.
+
+
+
+
+
+
+{% include base_path %}
+
+
+{% for post in site.projects %}
+  {% include archive-single.html %}
+{% endfor %}
