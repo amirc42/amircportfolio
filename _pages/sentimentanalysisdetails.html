@@ -1,0 +1,24 @@
+---
+layout: archive
+title: "Further Details:"
+permalink: /sentimentanalysisdetails/
+author_profile: true
+---
+
+<p>The way the program works is:
+  - User enters a keyword into the search bar.
+  - Using Twitter's search API the data related to that keyword is found such as certain
+  phrases.
+  - The sentiment dictionary within the program then assigns a score to the data found.
+  - The score will fall into one of three categories: Positive, Negative or Neutral.
+  - The results are then displayed in the GUI. 
+
+  Future Works:
+  - Cutting down the time for the sentiment analysis action to function.</p>
+
+{% include base_path %}
+
+
+{% for post in site.projects %}
+  {% include archive-single.html %}
+{% endfor %}
